@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Intro Paths — Iceberg</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-icon">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L2 22h20L12 2z" fill="#070E1C" stroke="#070E1C" stroke-width="1.5"/>
+          <path d="M12 8L6 20h12L12 8z" fill="#070E1C"/>
+        </svg>
+      </div>
+      Iceberg
+    </a>
+    <div class="nav-links">
+      <a href="how-it-works.html">How it works</a>
+      <a href="intro-paths.html" class="active">Intro paths</a>
+      <a href="try-it-live.html">Try it live</a>
+      <a href="why-iceberg.html">Why Iceberg</a>
+      <a href="pricing.html">Pricing</a>
+    </div>
+    <div class="nav-ctas">
+      <a href="#" class="btn-secondary">Book a demo</a>
+      <a href="try-it-live.html" class="btn-primary">See your universe &rarr;</a>
+    </div>
+    <button class="nav-mobile-toggle" onclick="document.getElementById('nav').classList.toggle('mobile-open')">&#9776;</button>
+  </div>
+</nav>
+
+<div style="padding-top:80px"></div>
+
+<!-- ========== 1. HERO ========== -->
+<section class="aida-section" style="background:var(--bg-base);padding:80px 0 60px;">
+  <div class="container">
+    <div class="fade-up">
+      <div class="section-label">INTRO PATH INTELLIGENCE</div>
+      <h2 style="max-width:700px;">Every investor comes with the fastest path to reach them.</h2>
+      <div class="hero-brutal" style="max-width:600px;margin-top:20px;">Full network visibility. As many paths to success as possible.</div>
+      <p class="aida-body" style="max-width:640px;margin-top:20px;">When you upload a mandate, Iceberg maps every possible pathway to every investor/buyer in your universe &mdash; across your full black book and your firm's entire relationship graph.</p>
+    </div>
+    <div class="hero-stats fade-up" style="margin-top:48px;justify-content:flex-start;gap:60px;">
+      <div>
+        <div class="hero-stat-value">4&times;</div>
+        <div class="hero-stat-label">response rate via warm intros vs cold</div>
+      </div>
+      <div>
+        <div class="hero-stat-value">47</div>
+        <div class="hero-stat-label">avg warm intro paths per mandate</div>
+      </div>
+      <div>
+        <div class="hero-stat-value">2nd degree</div>
+        <div class="hero-stat-label">intro mapping depth across your network</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 2. PATHWAY CARDS (existing) ========== -->
+<section class="aida-section" style="background:var(--bg-800);">
+  <div class="container">
+    <div class="aida-two-col">
+      <div class="fade-up">
+        <div class="section-label">LIVE PATHWAY MAPPING</div>
+        <h2>See the direct connections, the second-degree introductions, the shared deal histories.</h2>
+        <p class="aida-body" style="margin-top:20px;">Complete visibility across every possible route, so you can choose the strongest path to every contact and never leave a warm pathway untaken.</p>
+        <div class="intro-callout" style="margin-top:24px;">Iceberg maps intro paths across your entire advisor network. As more advisors run mandates on Iceberg, the pathway graph deepens &mdash; creating cross-mandate intelligence that compounds over time.</div>
+      </div>
+      <div class="fade-up" style="display:flex;flex-direction:column;justify-content:center;">
+        <div class="pathway-card active">
+          <div class="pathway-card-header">
+            <div>
+              <div class="pathway-card-name">James Chen</div>
+              <div class="pathway-card-role">Partner, Blackbird Ventures</div>
+            </div>
+            <span class="pathway-card-score">94</span>
+          </div>
+          <div class="pathway-card-route">Warm intro via Michael Lee (your network &middot; 1st degree) &rarr; James Chen. Michael co-invested with James in 2023. Response probability 4&times; vs cold.</div>
+        </div>
+        <div class="pathway-card">
+          <div class="pathway-card-header">
+            <div>
+              <div class="pathway-card-name">Sarah Okonkwo</div>
+              <div class="pathway-card-role">Principal, Square Peg Capital</div>
+            </div>
+            <span class="pathway-card-score">87</span>
+          </div>
+          <div class="pathway-card-route">2&deg; via Tom Walsh &rarr; Sarah Okonkwo &middot; Tom is a current portfolio company founder at Square Peg</div>
+        </div>
+        <div class="pathway-card">
+          <div class="pathway-card-header">
+            <div>
+              <div class="pathway-card-name">Lachlan Burns</div>
+              <div class="pathway-card-role">MD, TDM Growth Partners</div>
+            </div>
+            <span class="pathway-card-score">81</span>
+          </div>
+          <div class="pathway-card-route">Direct &mdash; you have a 1st-degree connection from the Eucalyptus deal in 2022</div>
+        </div>
+        <div class="pathway-footer">+ 44 more warm pathways mapped &darr;</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 3. HOW INTRO PATHS WORK ========== -->
+<section class="aida-section" style="background:var(--bg-base);">
+  <div class="container">
+    <div class="aida-centered fade-up">
+      <div class="section-label">HOW INTRO PATHS WORK</div>
+      <h2>From your network to the shortest path in seconds.</h2>
+    </div>
+    <div class="value-grid fade-up">
+      <div class="value-card">
+        <div class="value-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h4>Activate your network</h4>
+        <p>Your black book becomes a live, queryable relationship graph. Every contact, every co-investor, every shared deal &mdash; mapped and indexed.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></div>
+        <h4>We map every pathway</h4>
+        <p>1st-degree connections, 2nd-degree intros, shared deal history, co-investment signals &mdash; every route to every investor/buyer, ranked by strength.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+        <h4>Choose the strongest route</h4>
+        <p>Paths ranked by response probability, relationship warmth, and recency. You always know the single best way to reach any contact.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 4. COMPARISON: COLD vs WARM ========== -->
+<section class="aida-section" style="background:var(--bg-800);">
+  <div class="container">
+    <div class="diff-split fade-up">
+      <!-- Left: Text content -->
+      <div class="diff-split-text">
+        <div class="section-label">THE DIFFERENCE</div>
+        <h2>Cold outreach vs warm intro paths.</h2>
+
+        <div class="diff-compare-block diff-cold">
+          <h4>Without Iceberg <span>&mdash; Cold outreach</span></h4>
+          <ul>
+            <li>Generic cold emails with no context</li>
+            <li>&lt;5% response rate on average</li>
+            <li>Weeks spent researching who to contact</li>
+            <li>No visibility into who knows who</li>
+            <li>Relationship context lost between mandates</li>
+          </ul>
+        </div>
+
+        <div class="diff-compare-block diff-warm">
+          <h4>With Iceberg <span>&mdash; Warm intro paths</span></h4>
+          <ul>
+            <li>Personalised warm introductions via your network</li>
+            <li>15&ndash;32% response rate across live mandates</li>
+            <li>Instant pathway mapping in seconds</li>
+            <li>Full 2nd-degree relationship visibility</li>
+            <li>Network intelligence compounds over time</li>
+          </ul>
+          <div class="diff-punchline"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Every contact comes with the best way to reach them</div>
+        </div>
+      </div>
+
+      <!-- Right: Image with floating icons -->
+      <div class="diff-split-visual">
+        <div class="diff-image-wrap">
+          <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=700&fit=crop&crop=center" alt="Business networking" loading="lazy">
+          <div class="diff-image-overlay"></div>
+        </div>
+        <!-- Floating icons — positioned outside the image -->
+        <!-- Network / people (intro paths) -->
+        <div class="diff-float-icon diff-float-1" style="--float-delay:0s">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <!-- Link / connection -->
+        <div class="diff-float-icon diff-float-2" style="--float-delay:0.6s">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        </div>
+        <!-- Handshake / deal -->
+        <div class="diff-float-icon diff-float-3" style="--float-delay:1.2s">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z"/></svg>
+        </div>
+        <!-- Route / pathway -->
+        <div class="diff-float-icon diff-float-4" style="--float-delay:1.8s">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+        </div>
+        <!-- Shield / trust -->
+        <div class="diff-float-icon diff-float-5" style="--float-delay:2.4s">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 5. NETWORK EFFECT ========== -->
+<section class="fomo-split" style="background:var(--bg-base);">
+  <div class="container">
+    <div class="fomo-split-grid fade-up">
+      <div class="fomo-split-text">
+        <p class="fomo-split-main">As more advisors run mandates on Iceberg, the pathway graph deepens &mdash; creating cross-mandate intelligence that compounds over time.</p>
+        <p class="fomo-split-highlight">Your network becomes more valuable with every deal.</p>
+      </div>
+      <div class="fomo-split-video">
+        <video autoplay muted loop playsinline>
+          <source src="https://ik.imagekit.io/2z8yysunx/JRNY/Richard%20Property%20Advisers/Landing%20Page/Iceberg/send%20investor%20message%20gmail%201.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 6. CTA ========== -->
+<section class="pilot-cta-full">
+  <div class="pilot-cta-full-overlay"></div>
+  <div class="container pilot-cta-full-content fade-up">
+    <div class="section-label" style="color:var(--green);">SEE IT IN ACTION</div>
+    <h2>See your intro paths mapped in minutes.</h2>
+    <p>Upload a mandate and discover every warm pathway to your investor/buyer universe. No platform fee. No commitment.</p>
+    <p class="clarity">One mandate, fully supported.</p>
+    <div class="pilot-cta-buttons">
+      <a href="try-it-live.html" class="btn-primary">See your investor/buyer universe &rarr;</a>
+      <a href="#" class="btn-secondary">Book a demo</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <div class="nav-logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L2 22h20L12 2z" fill="#070E1C" stroke="#070E1C" stroke-width="1.5"/>
+            <path d="M12 8L6 20h12L12 8z" fill="#070E1C"/>
+          </svg>
+        </div>
+        Iceberg
+      </div>
+      <div class="footer-links">
+        <a href="how-it-works.html">How it works</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="#">Data Security</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-copy">&copy; 2026 Iceberg Intelligence Pty Ltd</div>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
